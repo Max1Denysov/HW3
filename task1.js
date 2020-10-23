@@ -1,4 +1,4 @@
 function sum(arr) {
-  return arr.map(v=>Math.min(...v)).reduce((a,b)=>a+b,0)
+  return arr.map(v=>Math.min(...v)).reduce((a , b)=>a + b , 0)
 }
 
