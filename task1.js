@@ -4,7 +4,7 @@
   [20, 21, 34, 56, 100]  
 ]
  
-//
+*/
 function sumOfMinimums(arr) {
   return arr.map(v=>Math.min(...v)).reduce((a,b)=>a+b,0)
 }
